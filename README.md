@@ -3,4 +3,4 @@ This app gives the data of number of patients affected by Covid19 Virus till dat
 
 | App Interface | Notification  |
 |---|---|
-| <img src="https://user-images.githubusercontent.com/45118110/79792126-044bbb00-836c-11ea-9a4f-fbf0097c6366.png" width="300" height="550" /> | <img src="https://user-images.githubusercontent.com/45118110/79792817-2c87e980-836d-11ea-8af7-5cf01ba77c4a.png" width="300" height="550" /> | 
+| <img src="https://user-images.githubusercontent.com/45118110/79792126-044bbb00-836c-11ea-9a4f-fbf0097c6366.png" width="310" height="550" /> | <img src="https://user-images.githubusercontent.com/45118110/79792817-2c87e980-836d-11ea-8af7-5cf01ba77c4a.png" width="310" height="550" /> | 
