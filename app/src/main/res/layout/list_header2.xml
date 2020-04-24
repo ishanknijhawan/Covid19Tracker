@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.7"
             android:padding="8dp"
-            android:text="State/UT"
+            android:text="Country"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -52,11 +52,11 @@
 
     </LinearLayout>
 
-<!--    <View-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_margin="8dp"-->
-<!--        android:background="#AAAAAA"-->
-<!--        android:layout_height="1dp"/>-->
+    <!--    <View-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:background="#AAAAAA"-->
+    <!--        android:layout_height="1dp"/>-->
 
 
 </LinearLayout>

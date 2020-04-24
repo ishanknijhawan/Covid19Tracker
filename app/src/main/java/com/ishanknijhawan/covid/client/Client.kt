@@ -1,8 +1,7 @@
-package com.ishanknijhawan.covid
+package com.ishanknijhawan.covid.client
 
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import retrofit2.Retrofit
 
 object Client {
     private val okHttpClient = OkHttpClient()
@@ -11,5 +10,7 @@ object Client {
         .url("https://api.covid19india.org/data.json")
         .build()
 
-    val api = okHttpClient.newCall(request)
+    val api = okHttpClient.newCall(
+        request
+    )
 }

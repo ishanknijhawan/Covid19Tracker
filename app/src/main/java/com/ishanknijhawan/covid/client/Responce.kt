@@ -1,4 +1,4 @@
-package com.ishanknijhawan.covid
+package com.ishanknijhawan.covid.client
 
 data class Response(
     val statewise: List<StatewiseItem>
@@ -9,7 +9,6 @@ data class StatewiseItem(
     val deltaactive: String? = null,
     val deltaconfirmed: String? = null,
     val deltadeaths: String? = null,
-
     val recovered: String? = null,
     val active: String? = null,
     val state: String? = null,

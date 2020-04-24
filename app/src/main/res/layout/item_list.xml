@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:paddingEnd="16dp"
     android:orientation="horizontal">
 
@@ -10,9 +11,10 @@
         android:id="@+id/stateTv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
+        android:layout_weight="1.7"
         android:padding="8dp"
-        android:textAllCaps="true"
+        tools:text="567"
+        android:textSize="15dp"
         android:textColor="@android:color/black"
         android:textStyle="bold" />
 
@@ -22,24 +24,27 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:padding="8dp"
+        tools:text="567"
         android:textAlignment="viewEnd"
         android:textAllCaps="true"
         android:textStyle="bold" />
-    <TextView
-        android:id="@+id/activeTv"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:textAlignment="viewEnd"
-        android:textAllCaps="true"
-        android:textStyle="bold" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/activeTv"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="8dp"-->
+<!--        android:textAlignment="viewEnd"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textStyle="bold" />-->
     <TextView
         android:id="@+id/recoveredTv"
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:padding="8dp"
+        tools:text="567"
         android:textAlignment="viewEnd"
         android:textAllCaps="true"
         android:textStyle="bold" />
@@ -49,6 +54,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:padding="8dp"
+        tools:text="567"
         android:textAlignment="viewEnd"
         android:textAllCaps="true"
         android:textStyle="bold" />

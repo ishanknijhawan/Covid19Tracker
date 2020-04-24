@@ -4,6 +4,7 @@ import android.graphics.Color
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
+import java.time.format.TextStyle
 
 class SpannableDelta(langName: String, langColor: String, start: Int) : SpannableString(langName) {
     init {

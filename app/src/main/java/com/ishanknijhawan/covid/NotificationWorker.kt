@@ -13,6 +13,10 @@ import androidx.core.content.ContextCompat
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.google.gson.Gson
+import com.ishanknijhawan.covid.client.Client
+import com.ishanknijhawan.covid.client.Response
+import com.ishanknijhawan.covid.ui.IndiaFragment
+import com.ishanknijhawan.covid.ui.MainActivity
 import kotlinx.coroutines.*
 import java.text.SimpleDateFormat
 
@@ -69,7 +73,7 @@ class NotificationWorker(
 
             showNotification(
                 totalDetails.confirmed ?: "",
-                getTimeAgo(
+                IndiaFragment().getTimeAgo(
                     SimpleDateFormat("dd/MM/yyyy HH:mm:ss")
                         .parse(totalDetails.lastupdatedtime)
                 )
