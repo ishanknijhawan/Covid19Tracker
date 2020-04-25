@@ -1,6 +1,6 @@
 
 # Covid19 Tracker
-This app gives the data of number of patients affected by Covid19 Virus till date in India. It also gives statewise distribution of the count as shown in the image. This app also notifies the user every hour regarding the count status so that the user doesen't have to open the app every time to check the status.
+This app gives the data of number of patients affected by Covid19 Virus till date in India and global. It also gives statewise distribution of the count as shown in the image. User can switch between india and the world tab to see the status. Search functioniality is also available. This app also notifies the user every hour regarding the count status so that the user doesen't have to open the app every time to check the status.
 
 |  India Count| Global count |Notification|
 |--|--|--|
