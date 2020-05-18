@@ -30,7 +30,7 @@ class StateListAdapter(val list: List<StatewiseItem>) : BaseAdapter() {
                 text = SpannableDelta(
                     "${String.format("%,d",item.confirmed.toInt())}\n " +
                             "↑${String.format("%,d",item.deltaconfirmed!!.toInt()) ?: ""}",
-                    "#D32F2F",
+                    "#AAAAAA",
                     temp.length
                 )
             }
@@ -50,7 +50,7 @@ class StateListAdapter(val list: List<StatewiseItem>) : BaseAdapter() {
 
                 "${String.format("%,d",item.recovered!!.toInt())}\n" +
                         " ↑${String.format("%,d",item.deltarecovered!!.toInt()) ?: ""}",
-                "#388E3C",
+                "#AAAAAA",
                 temp.length
             )
         }
@@ -63,7 +63,7 @@ class StateListAdapter(val list: List<StatewiseItem>) : BaseAdapter() {
             view.deceasedTv.text = SpannableDelta(
                 "${String.format("%,d",item.deaths.toInt())}\n" +
                         " ↑${String.format("%,d",item.deltadeaths!!.toInt())}",
-                "#000000",
+                "#AAAAAA",
                 temp.length
             )
         }

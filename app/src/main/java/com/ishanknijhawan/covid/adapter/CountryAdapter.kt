@@ -21,7 +21,7 @@ class CountryAdapter(val list: List<Country>) : BaseAdapter() {
             text = SpannableDelta(
                 "${String.format("%,d",item.totalConfirmed)}\n" +
                         " ↑${String.format("%,d",item.newConfirmed)}",
-                "#D32F2F",
+                "#AAAAAA",
                 temp.length
             )
         }
@@ -46,7 +46,7 @@ class CountryAdapter(val list: List<Country>) : BaseAdapter() {
         view.recoveredTv.text = SpannableDelta(
             "${String.format("%,d",item.totalRecovered)}\n" +
                     " ↑${String.format("%,d",item.newRecovered)}",
-            "#388E3C",
+            "#AAAAAA",
             temp.length
         )
 
@@ -54,7 +54,7 @@ class CountryAdapter(val list: List<Country>) : BaseAdapter() {
         view.deceasedTv.text = SpannableDelta(
             "${String.format("%,d",item.totalDeaths)}\n" +
                     " ↑${String.format("%,d",item.newDeaths)}",
-            "#000000",
+            "#AAAAAA",
             temp2.length
         )
         view.stateTv.text = item.country

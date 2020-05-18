@@ -78,6 +78,7 @@ class IndiaFragment : Fragment() {
         bottomSheet = rootView.findViewById(R.id.bottomSheet)
         etsearch = rootView.findViewById(R.id.etSearch)
         bs = BottomSheetBehavior.from(bottomSheet)
+        bottomSheet.elevation = 16F
 
         cardView2.elevation = 16F
         pb.visibility = View.GONE

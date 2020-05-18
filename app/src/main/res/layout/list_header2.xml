@@ -15,14 +15,14 @@
             android:id="@+id/textView2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.7"
+            android:layout_weight="1.5"
             android:padding="8dp"
             android:text="Country"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
         <TextView
-            android:layout_weight="1"
+            android:layout_weight="1.2"
             android:textAlignment="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
 
         <TextView
             android:textAlignment="center"
-            android:layout_weight="1"
+            android:layout_weight="1.3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:padding="8dp"
@@ -42,7 +42,7 @@
             android:textStyle="bold" />
         <TextView
             android:textAlignment="center"
-            android:layout_weight="1"
+            android:layout_weight="1.1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:padding="8dp"

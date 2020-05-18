@@ -72,6 +72,7 @@ class WorldFragment : Fragment() {
         bottomSheetW = rootView.findViewById(R.id.bottomSheet2)
         etsearch2 = rootView.findViewById(R.id.etSearch2)
         bs2 = BottomSheetBehavior.from(bottomSheetW)
+        bottomSheetW.elevation = 16F
 
         cardView.elevation = 16F
         pb.visibility = View.VISIBLE
