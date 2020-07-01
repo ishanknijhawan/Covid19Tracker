@@ -5,7 +5,7 @@
 
 <h1 id="covid19-tracker">Covid19 Tracker</h1>
 <p>This app gives the data of number of patients affected by Covid19 Virus till date in India. It also gives statewise distribution of the count as shown in the image. This app also notifies the user every hour regarding the count status so that the user doesen’t have to open the app every time to check the status.</p>
-<p>Download the app from <a href="https://drive.google.com/open?id=1l5Jk8C68UX739b4H2vY-ph99Wm3Mjt0U">here</a></p>
+<p>Download the app from <a href="https://drive.google.com/file/d/1l5Jk8C68UX739b4H2vY-ph99Wm3Mjt0U/view?usp=sharing">here</a></p>
 
 <table>
 <thead>
