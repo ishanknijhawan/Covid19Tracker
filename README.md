@@ -16,8 +16,8 @@
 </thead>
 <tbody>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/45118110/80280012-de813600-871e-11ea-9130-7898c799660b.png" width="310" height="550"></td>
-<td><img src="https://user-images.githubusercontent.com/45118110/80280012-de813600-871e-11ea-9130-7898c799660b.png" width="310" height="550"></td>
+<td><img src="https://user-images.githubusercontent.com/45118110/92104384-dc329500-edfe-11ea-8834-2cee36c6420c.jpeg" width="310" height="550"></td>
+<td><img src="https://user-images.githubusercontent.com/45118110/92104395-de94ef00-edfe-11ea-9cf1-151d0e57639e.jpeg" width="310" height="550"></td>
 </tr>
 </tbody>
 </table>
